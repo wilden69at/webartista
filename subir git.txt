@@ -1,0 +1,36 @@
+Software@DESKTOP-I2EKN21 MINGW64 /e/jhon/WEB01 (master)
+$ git init
+}Initialized empty Git repository in E:/jhon/WEB01/.git/
+
+Software@DESKTOP-I2EKN21 MINGW64 /e/jhon/WEB01 (master)
+$ }git add .
+bash: }git: command not found
+
+Software@DESKTOP-I2EKN21 MINGW64 /e/jhon/WEB01 (master)
+$ git add .
+
+Software@DESKTOP-I2EKN21 MINGW64 /e/jhon/WEB01 (master)
+$ git commit -m "archivos base"
+[master (root-commit) 2014fd6] archivos base
+ 7 files changed, 93 insertions(+)
+ create mode 100644 STYLES.CSS
+ create mode 100644 formulario.html5
+ create mode 100644 img/FabulososCadillacs1.png
+ create mode 100644 index.html
+ create mode 100644 tarea 1.txt
+ create mode 100644 tema1.mp3
+ create mode 100644 video2.mp4
+
+Software@DESKTOP-I2EKN21 MINGW64 /e/jhon/WEB01 (master)
+$ git remote add origin https://github.com/wilden69at/webartista.git
+
+Software@DESKTOP-I2EKN21 MINGW64 /e/jhon/WEB01 (master)
+$ git push origin master
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 22.35 MiB | 10.96 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0)
+To https://github.com/wilden69at/webartista.git
+ * [new branch]      master -> master
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Reservaciones</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="STYLES.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<legend class="legend">Datos personales</legend>
+			<div class="control">
+			<label for="DNI">Dni<span>*</span></label>
+			<input type="text" 
+				   placeholder="Ingrese su numero de DNI" maxlength="8" 
+				   required>
+			</div>
+			<div class="control">
+			<label for="Nombre">Apellidos y Nombres<span>*</span></label>
+			<input type="text" placeholder="Ingrese sus apellidos y Nombres" size="50px" 
+			required>
+			</div>
+			<div class="control">
+				<label for="fechanac">Fecha de Nacimiento<span>*</span></label>
+				<input type="date" required>
+			</div>
+			<div class="control">
+				<label for="edad">Edad<span>*</span></label>
+				<input type="number" maxlength="2" required>
+			</div>
+			<div class="control">
+				<label for="correoelectronico">CorreoElectronico<span>*</span></label>
+				<input type="text"  required>
+			</div>
+			<input type="submit" value="Enviar Informacion">
+		</fieldset>
+	</form>
+</body>
+</html>

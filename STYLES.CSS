@@ -42,3 +42,46 @@ header .Logo img{
 
 
 }
+
+fieldset{
+	border: 1px solid #08A364;
+	position: relative;
+	width: 50%;
+	margin: 0 auto; 
+	background-image: url(img/FabulososCadillacs1.png);
+}
+.control{
+	padding: 10px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.legend{
+	font-family: 'Indie Flower', cursive;
+}
+label{
+	display: block;
+}
+span{
+	color: red; 
+}
+input[type=text]:focus{
+	outline: 0 none;
+	border: solid 1px #08A364;
+}
+input[type=submit]{
+	border: 0px;
+	background-color: #00de8b;
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
+	color: white;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	box-shadow: 1px 1px 2px black;
+}
+input[type=submit]:hover{
+	background-color: #08A364;
+
+}
